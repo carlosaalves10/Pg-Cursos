@@ -1,0 +1,24 @@
+{
+  "store.home": { 
+    "blocks": [
+      "image#cursos",
+      "rich-text"
+    ]
+  },
+
+  "image#cursos": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+
+  "rich-text": { 
+    "props": { 
+      "text": "PROGRAMAÇÃO DOS CURSOS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
