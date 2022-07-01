@@ -1,0 +1,96 @@
+.paragraph--pgcursos{
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+.paragraph--pgcursos2{
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+.wrapper--title{
+    margin-right: -380px;
+    margin-left: -280px;
+}
+
+.wrapper--title2{
+    margin-right: -380px;
+    margin-left: -280px;
+}
+
+.wrapper--pgcursos{
+    margin-right: -380px;
+    margin-left: -280px;
+}
+
+.wrapper--pgcursos2{
+    margin-right: -140px;
+    margin-left: -280px;
+}
+
+.paragraph--textpg{
+    text-decoration: underline overline;
+    color: #DA291C;
+}
+
+.image--home-image{
+    border-radius: 50%;
+    border: solid;
+    width: 50%;
+    height: 50%;
+}
+
+.wrapper--pres-pg1{
+    margin-left: 26%;
+    margin-top: 27%;
+}
+
+.wrapper--pres-pg2{
+    margin-left: 30%;
+    margin-top: -10%;
+}
+
+.wrapper--pres-pg3{
+    margin-left: -4%;
+    margin-top: 27%;
+}
+
+.wrapper--pres-pg4{
+    margin-left: -34%;
+    margin-top: 10%;
+}
+
+.wrapper--pres-pg5{
+    margin-left: 28%;
+    margin-top: -30%;
+}
+
+.heading-level-3{
+    margin-left: 30px;
+}
+
+.container--teste1{
+    border-left: 6px solid #DA291C;
+    height: 430px;
+    width: 1px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.container--teste2{
+    border-right: 2px solid #DA291C;
+    margin-top: 100px;
+    height: 270px;
+    width: 1px;
+    margin-right: -90px;
+}
+
+.container--teste3{
+    border-right: 2px solid #DA291C;
+    margin-top: 100px;
+    height: 270px;
+    width: 1px;
+    margin-right: 160px;
+}
