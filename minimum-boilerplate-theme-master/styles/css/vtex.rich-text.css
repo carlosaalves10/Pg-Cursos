@@ -10,7 +10,7 @@
 
 .wrapper--title{
     margin-right: -380px;
-    margin-left: -280px;
+    margin-left: -250px;
 }
 
 .wrapper--title2{
@@ -40,6 +40,38 @@
     height: 50%;
 }
 
+
+
+.container--title2{
+    margin-left: 30px;
+}
+
+.container--teste1{
+    border-left: 6px solid #F0933D;
+    height: 430px;
+    width: 1px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.container--teste2{
+    border-right: 2px solid #DA4F1C;
+    margin-top: 100px;
+    height: 270px;
+    width: 1px;
+    margin-right: -90px;
+}
+
+.container--teste3{
+    border-right: 2px solid #DA4F1C;
+    margin-top: 100px;
+    height: 270px;
+    width: 1px;
+    margin-right: 160px;
+}
+
 .wrapper--pres-pg1{
     margin-left: 26%;
     margin-top: 27%;
@@ -55,42 +87,136 @@
     margin-top: 27%;
 }
 
-.wrapper--pres-pg4{
-    margin-left: -34%;
-    margin-top: 10%;
+.paragraph--pres-pg1{
+    font-weight: 600;
+    color: #8A1E23;
 }
 
-.wrapper--pres-pg5{
-    margin-left: 28%;
-    margin-top: -30%;
+.paragraph--pres-pg3{
+    margin-left: -180px;
+    font-weight: 600;
+    color: #8A1E23;
 }
 
-.heading-level-3{
-    margin-left: 30px;
+.paragraph--pres-pg4{
+    margin-left: -110px;
 }
 
-.container--teste1{
-    border-left: 6px solid #DA291C;
-    height: 430px;
-    width: 1px;
+.paragraph--pres-pg5{
+    margin-left: -60px;
+}
+
+
+.container--pgcursos-mob{
+    border-left: 6px solid #F0933D;
+    border-right: 1px solid #b3a9a0;
+}
+
+.container--pgcursos2-mob{
+    border-left: 6px solid #F0933D;
+    border-right: 1px solid #b3a9a0;
+}
+
+.container--title-mob{
+    border-left: 6px solid #F0933D;;
+    border-top-left-radius: 6px;  
+    border-top: 1px solid #b3a9a0;
+    border-right: 1px solid #b3a9a0;
+}
+
+.container--title2-mob{
+    border-left: 6px solid #F0933D;
     border-top-left-radius: 6px;
+    border-right: 1px solid #b3a9a0;
+    border-top: 1px solid #b3a9a0;
+}
+
+.container--teste-topmob{
+    border-left: 6px solid #F0933D;
+    height: 100px;
+    border-right: 1px solid #b3a9a0;
     border-bottom-left-radius: 6px;
-    margin-left: 30px;
-    margin-bottom: 100px;
+    border-bottom: 1px solid #b3a9a0;
 }
 
-.container--teste2{
-    border-right: 2px solid #DA291C;
-    margin-top: 100px;
-    height: 270px;
-    width: 1px;
-    margin-right: -90px;
+.container--teste-topmob2{
+    border-left: 6px solid #F0933D;
+    height: 140px;
+    border-bottom-left-radius: 6px;
+    border-right: 1px solid #b3a9a0;
+    border-bottom: 1px solid #b3a9a0;
 }
 
-.container--teste3{
-    border-right: 2px solid #DA291C;
-    margin-top: 100px;
-    height: 270px;
-    width: 1px;
-    margin-right: 160px;
+.paragraph--text__link-bar{
+    font-family: 'Museo', Arial, sans-serif;
+    color: white;
+}
+
+.wrapper--pgcursos-mob{
+    margin-left: 10px;
+}
+
+.wrapper--pgcursos2-mob{
+    margin-left: 10px;
+}
+
+.paragraph--textpg-mob{
+    font-size: 26px;
+    font-weight: 600;
+    color: #272B30;
+    text-transform: lowercase;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-left: 18px;
+}
+
+.paragraph--pres-pg1-mob{
+    margin-top: -95px;
+    margin-left: 170px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    color: #8A1E23;
+    line-height: 16px;
+}
+
+.paragraph--pres-pg2-mob{
+    margin-top: -60px;
+    margin-left: 170px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 16px;
+}
+
+.paragraph--pres-pg3-mob{
+    margin-top: -65px;
+    margin-left: -125px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    color: #8A1E23;
+    font-size: 12px;
+}
+
+.paragraph--pres-pg4-mob{
+    margin-top: -40px;
+    margin-left: -115px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.paragraph--pres-pg5-mob{
+    margin-top: -25px;
+    margin-left: -115px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.wrapper--title-mob{
+    margin-left: 10px;
+    color: #272B30;
+}
+
+.wrapper--title2-mob{
+    margin-left: 10px;
+    color: #272B30;
 }

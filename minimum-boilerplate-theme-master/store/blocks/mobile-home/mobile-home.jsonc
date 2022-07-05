@@ -1,0 +1,497 @@
+{
+    "responsive-layout.phone": {
+      "children": ["image#cursos", "rich-text#mob", 
+        "flex-layout.row#pgcursos-mob",
+        "flex-layout.row#pgcursos3-mob",
+        "flex-layout.row#pgcursos4-mob",
+        "flex-layout.row#pgcursos2-mob",
+        "image#cursos-brands-mob"]
+    },
+  
+   /*PRIMEIRO BLOCO*/
+  
+  "image#cursos": {
+    "props": {
+      "src": "https://raw.githubusercontent.com/carlosaalves10/Pg-Cursos/main/minimum-boilerplate-theme-master/docs/assets/imgs/image.png?token=GHSAT0AAAAAABU7IOZWF6D6NE5PXDPP6PA2YV7HYGA"
+    }
+  },
+  
+  
+  "rich-text#mob": { 
+    "props": { 
+      "text": "PROGRAMAÇÃO DOS CURSOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "textpg-mob"
+    }
+  },
+
+    "flex-layout.row#pgcursos-mob": {
+      "children": ["flex-layout.col#2-mob", "flex-layout.col#text-pgcursos-mob"],
+      "props": {
+      "blockclass": "pgflex-mob"
+     }
+    },
+  
+    "flex-layout.col#text-pgcursos-mob": {
+      "children": ["rich-text#title-pgcursos-mob", "rich-text#pgcursos-mob", "rich-text#testetop-mob", "flex-layout.row#links-mob"],
+      "props": {
+        "blockclass": "textColumn-mob",
+        "preventVerticalStretch": true
+      }
+    },
+
+    "rich-text#testetop-mob": {
+      "props": {
+        "text": " ",
+        "blockClass": "teste-topmob"
+      }
+    },
+    
+    "flex-layout.row#links-mob":{
+      "children": ["link#cta-mob", "link#cta2-mob"]
+    },
+  
+    "rich-text#title-pgcursos-mob": {
+      "props": {
+        "text": "### Titulo do curso Titulo do curso",
+        "blockClass": "title-mob"
+      }
+    },
+  
+    "rich-text#pgcursos-mob": {
+      "props": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
+        "blockClass": "pgcursos-mob"
+      }
+    },
+  
+    "flex-layout.col#2-mob":{
+      "children": [
+        "image#pgcursos-mob",
+        "rich-text#pg1-mob",
+        "rich-text#pg2-mob"
+      ]
+    },
+  
+    "rich-text#pg1-mob": {
+      "props": {
+        "text": "apresentado por",
+        "blockClass": "pres-pg1-mob",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+  
+    "rich-text#pg2-mob": {
+      "props": {
+        "text": "nome nome nome",
+        "blockClass": "pres-pg2-mob",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT"
+      }
+    },
+  
+    "image#pgcursos-mob": {
+      "props": {
+        "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+        "maxWidth": "100%",
+        "maxHeight": "100%",
+        "width": 130,
+        "height": 130,
+        "blockClass": "pgprof1-mob"
+        }
+    },
+  
+    "link#cta-mob": {
+      "props": {
+        "blockClass":"pglink1-mob",
+       "displayMode": "button",
+        "buttonProps": {
+          "variant": "primary",
+          "size": "small"
+        },
+        "href": "/washer",
+        "label": "quero assistir"
+      }
+    },
+  
+    "link#cta2-mob": {
+     "props": {
+      "blockClass":"pglink2-mob",
+      "displayMode": "button",
+       "buttonProps": {
+         "variant": "primary",
+         "size": "small"
+       },
+       "href": "/washer",
+       "label": "ver vinhos do curso"
+     }
+   },
+  
+   "image#cursos-brands-mob": {
+    "props": {
+      "src": "https://supernossoio.vtexassets.com/arquivos/marcas-feira-mobile.png"
+    }
+  },
+  
+  /*SEGUNDO BLOCO*/
+
+  "flex-layout.row#pgcursos3-mob": {
+    "children": ["flex-layout.col#4-mob", "flex-layout.col#text-pgcursos3-mob"],
+    "props": {
+    "blockclass": "pgflex-mob"
+   }
+  },
+  
+  "flex-layout.col#text-pgcursos3-mob": {
+    "children": ["rich-text#title-pgcursos3-mob", "rich-text#pgcursos3-mob", "rich-text#testetop-mob3", "flex-layout.row#links3-mob"],
+    "props": {
+      "blockclass": "textColumn-mob",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#testetop-mob3": {
+    "props": {
+      "text": " ",
+      "blockClass": "teste-topmob2"
+    }
+  },
+  
+  "flex-layout.row#links3-mob":{
+    "children": ["link#cta5-mob", "link#cta6-mob", "link#cta7-mob"]
+  },
+  
+  "rich-text#title-pgcursos3-mob": {
+    "props": {
+      "text": "### Titulo do curso Titulo do curso",
+      "blockClass": "title-mob"
+    }
+  },
+  
+  "rich-text#pgcursos3-mob": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
+      "blockClass": "pgcursos-mob"
+    }
+  },
+  
+  "flex-layout.col#4-mob":{
+    "children": [
+    "image#pgcursos4-mob",
+      "rich-text#pg6-mob",
+      "rich-text#pg7-mob"
+    ]
+  },
+  
+  "rich-text#pg6-mob": {
+    "props": {
+      "text": "apresentado por",
+      "blockClass": "pres-pg1-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT"
+    }
+  },
+  
+  "rich-text#pg7-mob": {
+    "props": {
+      "text": "nome nome nome",
+      "blockClass": "pres-pg2-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT"
+    }
+  },
+  
+  "image#pgcursos4-mob": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "width": 130,
+      "height": 130,
+      "blockClass": "pgprof1-mob"
+    }
+  },
+  
+  "link#cta5-mob": {
+    "props": {
+      "blockClass":"pglink5-mob",
+     "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "small"
+      },
+      "href": "/washer",
+      "label": "quero assistir"
+    }
+  },
+  
+  "link#cta6-mob": {
+   "props": {
+    "blockClass":"pglink6-mob",
+    "displayMode": "button",
+     "buttonProps": {
+       "variant": "primary",
+       "size": "small"
+     },
+     "href": "/washer",
+     "label": "produtos da receita"
+   }
+  },
+  
+  "link#cta7-mob": {
+    "props": {
+     "blockClass":"pglink7-mob",
+     "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "small"
+      },
+      "href": "/washer",
+      "label": "baixar e-book da receita"
+    }
+   },
+
+
+  /*TERCEIRO BLOCO*/
+
+  "flex-layout.row#pgcursos4-mob": {
+    "children": ["flex-layout.col#5-mob", "flex-layout.col#text-pgcursos4-mob"],
+    "props": {
+    "blockclass": "pgflex-mob"
+   }
+  },
+  
+  "flex-layout.col#text-pgcursos4-mob": {
+    "children": ["rich-text#title-pgcursos4-mob", "rich-text#pgcursos4-mob", "rich-text#testetop-mob4", "flex-layout.row#links4-mob"],
+    "props": {
+      "blockclass": "textColumn-mob",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#testetop-mob4": {
+    "props": {
+      "text": " ",
+      "blockClass": "teste-topmob"
+    }
+  },
+  
+  "flex-layout.row#links4-mob":{
+    "children": ["link#cta8-mob", "link#cta9-mob"]
+  },
+  
+  "rich-text#title-pgcursos4-mob": {
+    "props": {
+      "text": "### Titulo do curso Titulo do curso",
+      "blockClass": "title-mob"
+    }
+  },
+  
+  "rich-text#pgcursos4-mob": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
+      "blockClass": "pgcursos-mob"
+    }
+  },
+  
+  "flex-layout.col#5-mob":{
+    "children": [
+    "image#pgcursos5-mob",
+      "rich-text#pg8-mob",
+      "rich-text#pg9-mob"
+    ]
+  },
+  
+  "rich-text#pg8-mob": {
+    "props": {
+      "text": "apresentado por",
+      "blockClass": "pres-pg1-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT"
+    }
+  },
+  
+  "rich-text#pg9-mob": {
+    "props": {
+      "text": "nome nome nome",
+      "blockClass": "pres-pg2-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT"
+    }
+  },
+  
+  "image#pgcursos5-mob": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "width": 130,
+      "height": 130,
+      "blockClass": "pgprof1-mob"
+    }
+  },
+  
+  "link#cta8-mob": {
+    "props": {
+      "blockClass":"pglink8-mob",
+     "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "small"
+      },
+      "href": "/washer",
+      "label": "quero assistir"
+    }
+  },
+  
+  "link#cta9-mob": {
+   "props": {
+    "blockClass":"pglink9-mob",
+    "displayMode": "button",
+     "buttonProps": {
+       "variant": "primary",
+       "size": "small"
+     },
+     "href": "/washer",
+     "label": "ver vinhos do curso"
+   }
+  },
+
+
+   /*QUARTO BLOCO*/
+
+   "flex-layout.row#pgcursos2-mob": {
+    "children": ["flex-layout.col#3-mob", "flex-layout.col#text-pgcursos2-mob"],
+    "props": {
+    "blockclass": "pgflex-mob"
+   }
+  },
+  
+  "flex-layout.col#text-pgcursos2-mob": {
+    "children": ["rich-text#title-pgcursos2-mob", "rich-text#pgcursos2-mob", "rich-text#testetop-mob2", "flex-layout.row#links2-mob"],
+    "props": {
+      "blockclass": "textColumn2-mob",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#testetop-mob2": {
+    "props": {
+      "text": " ",
+      "blockClass": "teste-topmob"
+    }
+  },
+  
+  
+  "flex-layout.row#links2-mob":{
+    "children": ["link#cta3-mob", "link#cta4-mob"]
+  },
+  
+  "rich-text#title-pgcursos2-mob": {
+    "props": {
+      "text": "### Titulo do curso Titulo do curso",
+      "blockClass": "title2-mob"
+    }
+  },
+  
+  "rich-text#pgcursos2-mob": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
+      "blockClass": "pgcursos2-mob"
+    }
+  },
+  
+  
+  "flex-layout.col#3-mob":{
+    "children": [
+      "flex-layout.row#imagedesk2-mob",
+      "rich-text#pg3-mob",
+      "rich-text#pg4-mob",
+      "rich-text#pg5-mob"
+    ]
+  },
+  
+  "flex-layout.row#imagedesk2-mob": {
+    "children": ["image#pgcursos2-mob", "image#pgcursos3-mob"]
+   },
+  
+   "rich-text#pg3-mob": {
+    "props": {
+      "text": "apresentado por",
+      "blockClass": "pres-pg3-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT"
+    }
+  },
+  
+  "rich-text#pg4-mob": {
+    "props": {
+      "text": "nome nome nome",
+      "blockClass": "pres-pg4-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT"
+    }
+  },
+  
+  "rich-text#pg5-mob": {
+    "props": {
+      "text": "nome nome nome",
+      "blockClass": "pres-pg5-mob",
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT"
+    }
+  },
+  
+  "image#pgcursos2-mob": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "width": 65,
+      "height": 65,
+      "blockClass": "pgprof2-mob"
+    }
+  },
+  
+  "image#pgcursos3-mob": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "width": 65,
+      "height": 65,
+      "blockClass": "pgprof3-mob"
+    }
+  },
+  
+  "link#cta3-mob": {
+    "props": {
+      "blockClass":"pglink3-mob",
+     "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "small"
+      },
+      "href": "/washer",
+      "label": "quero assistir"
+    }
+  },
+  
+  "link#cta4-mob": {
+   "props": {
+    "blockClass":"pglink4-mob",
+    "displayMode": "button",
+     "buttonProps": {
+       "variant": "primary",
+       "size": "small"
+     },
+     "href": "/washer",
+     "label": "ver vinhos do curso"
+   }
+  }
+}
+  
+  
