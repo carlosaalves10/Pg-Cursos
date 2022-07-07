@@ -1,11 +1,11 @@
 {
   "responsive-layout.desktop": {
-    "children": ["image#cursos", "rich-text", 
-      "flex-layout.row#pgcursos",
-      "flex-layout.row#pgcursos3",
-      "flex-layout.row#pgcursos4",
+    "children": ["image#cursos", "rich-text", "flex-layout.row#line1", "flex-layout.row#line2",
+      "flex-layout.row#pgcursos", "flex-layout.row#line1", "flex-layout.row#line2", 
+      "flex-layout.row#pgcursos3", "flex-layout.row#line1", "flex-layout.row#line2",
+      "flex-layout.row#pgcursos4", "flex-layout.row#line3", "flex-layout.row#line4",
       "flex-layout.row#pgcursos2",
-      "image#cursos-brands"]
+      "flex-layout.row#image-brands"]
   },
 
  /*PRIMEIRO BLOCO*/
@@ -28,7 +28,7 @@
 },
 
   "flex-layout.row#pgcursos": {
-    "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos", "rich-text#teste2", "flex-layout.col#2"],
+    "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos", "rich-text#teste2", "flex-layout.col#2", "rich-text#lineb2"],
     "props": {
     "blockclass": "pgflex"
    }
@@ -41,6 +41,81 @@
       "preventVerticalStretch": true
     }
   },
+
+
+
+  "flex-layout.row#line1": {
+    "children": ["rich-text#lineb"],
+    "props": {
+      "blockclass": "tte"
+    }
+  },
+
+  "flex-layout.row#line2": {
+    "children": ["rich-text#lineb3"],
+    "props": {
+      "blockclass": "tte"
+    }
+  },
+
+  "rich-text#lineb": {
+    "props": {
+      "text": " ",
+      "blockClass": "lineb"
+    }
+  },
+
+  "rich-text#lineb2": {
+    "props": {
+      "text": " ",
+      "blockClass": "lineb2"
+    }
+  },
+
+  "rich-text#lineb3": {
+    "props": {
+      "text": " ",
+      "blockClass": "lineb3"
+    }
+  },
+
+
+
+  "flex-layout.row#line3": {
+    "children": ["rich-text#lineb4"],
+    "props": {
+      "blockclass": "tte"
+    }
+  },
+
+  "flex-layout.row#line4": {
+    "children": ["rich-text#lineb6"],
+    "props": {
+      "blockclass": "tte"
+    }
+  },
+
+  "rich-text#lineb4": {
+    "props": {
+      "text": " ",
+      "blockClass": "lineb4"
+    }
+  },
+
+  "rich-text#lineb5": {
+    "props": {
+      "text": " ",
+      "blockClass": "lineb5"
+    }
+  },
+
+  "rich-text#lineb6": {
+    "props": {
+      "text": " ",
+      "blockClass": "lineb6"
+    }
+  },
+
 
   "rich-text#teste1": {
     "props": {
@@ -137,6 +212,13 @@
    }
  },
 
+ "flex-layout.row#image-brands": {
+  "children": ["image#cursos-brands"],
+  "props": {
+  "blockclass": "image-brands"
+ }
+},
+
  "image#cursos-brands": {
   "props": {
     "src": "https://supernossoio.vtexassets.com/arquivos/marcas-feira.png"
@@ -146,7 +228,7 @@
 /*SEGUNDO BLOCO*/
 
 "flex-layout.row#pgcursos3": {
-  "children": ["rich-text#teste5", "flex-layout.col#text-pgcursos3", "rich-text#teste6", "flex-layout.col#4"],
+  "children": ["rich-text#teste5", "flex-layout.col#text-pgcursos3", "rich-text#teste6", "flex-layout.col#4", "rich-text#lineb2"],
   "props": {
   "blockclass": "pgflex"
  }
@@ -231,6 +313,47 @@
 
 "link#cta5": {
   "props": {
+    "blockClass":"pglink3",
+   "displayMode": "button",
+    "buttonProps": {
+      "variant": "primary",
+      "size": "small"
+    },
+    "href": "/washer",
+    "label": "quero assistir"
+  }
+},
+
+"link#cta6": {
+ "props": {
+  "blockClass":"pglink4",
+  "displayMode": "button",
+   "buttonProps": {
+     "variant": "primary",
+     "size": "small"
+   },
+   "href": "/washer",
+   "label": "produtos da receita"
+ }
+},
+
+"link#cta7": {
+  "props": {
+   "blockClass":"pglink5",
+   "displayMode": "button",
+    "buttonProps": {
+      "variant": "primary",
+      "size": "small"
+    },
+    "href": "/washer",
+    "label": "baixar e-book da receita"
+  }
+ },
+
+/*
+
+"link#cta5": {
+  "props": {
     "blockClass":"pglink1",
    "displayMode": "button",
     "buttonProps": {
@@ -267,12 +390,12 @@
     "label": "baixar e-book da receita"
   }
  },
-
+*/
 
 /*TERCEIRO BLOCO*/
 
 "flex-layout.row#pgcursos4": {
-  "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos4", "rich-text#teste2", "flex-layout.col#5"],
+  "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos4", "rich-text#teste2", "flex-layout.col#5", "rich-text#lineb2"],
   "props": {
   "blockclass": "pgflex"
  }
@@ -371,7 +494,7 @@
  /*QUARTO BLOCO*/
 
  "flex-layout.row#pgcursos2": {
-  "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos2", "rich-text#teste3", "flex-layout.row#juntos"],
+  "children": ["rich-text#teste4", "flex-layout.col#text-pgcursos2", "rich-text#teste3", "flex-layout.row#juntos", "rich-text#lineb5"],
   "props": {
   "blockclass": "pgflex"
  }
@@ -389,6 +512,13 @@
   "props": {
     "text": " ",
     "blockClass": "teste3"
+  }
+},
+
+"rich-text#teste4": {
+  "props": {
+    "text": " ",
+    "blockClass": "teste4"
   }
 },
 
@@ -490,6 +620,7 @@
     "blockClass": "pgprof3"
   }
 },
+
 
 "link#cta3": {
   "props": {

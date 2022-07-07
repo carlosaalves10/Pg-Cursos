@@ -5,7 +5,7 @@
         "flex-layout.row#pgcursos3-mob",
         "flex-layout.row#pgcursos4-mob",
         "flex-layout.row#pgcursos2-mob",
-        "image#cursos-brands-mob"]
+        "flex-layout.row#image-brands-mob"]
     },
   
    /*PRIMEIRO BLOCO*/
@@ -129,6 +129,13 @@
        "label": "ver vinhos do curso"
      }
    },
+
+   "flex-layout.row#image-brands-mob": {
+    "children": ["image#cursos-brands-mob"],
+    "props": {
+    "blockclass": "image-brands-mob"
+   }
+  },
   
    "image#cursos-brands-mob": {
     "props": {

@@ -1,10 +1,10 @@
 {
     "responsive-layout.tablet": {
-      "children": ["image#cursos", "rich-text", 
-        "flex-layout.row#pgcursos",
-        "flex-layout.row#pgcursos3",
-        "flex-layout.row#pgcursos4",
-        "flex-layout.row#pgcursos2",
+      "children": ["image#cursos", "rich-text", "flex-layout.row#line1tab", "flex-layout.row#line2tab",
+        "flex-layout.row#pgcursos-tab", "flex-layout.row#line1tab", "flex-layout.row#line2tab", 
+        "flex-layout.row#pgcursos3-tab", "flex-layout.row#line1tab", "flex-layout.row#line2tab",
+        "flex-layout.row#pgcursos4-tab", "flex-layout.row#line3tab", "flex-layout.row#line4tab",
+        "flex-layout.row#pgcursos2-tab",
         "image#cursos-brands"]
     },
   
@@ -27,93 +27,178 @@
     }
   },
   
-    "flex-layout.row#pgcursos": {
-      "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos", "rich-text#teste2", "flex-layout.col#2"],
+    "flex-layout.row#pgcursos-tab": {
+      "children": ["rich-text#teste1-tab", "flex-layout.col#text-pgcursos-tab", "rich-text#teste2-tab", "flex-layout.col#2-tab", "rich-text#linetab2"],
       "props": {
-      "blockclass": "pgflex"
+      "blockclass": "pgflex-tab"
      }
     },
   
-    "flex-layout.col#text-pgcursos": {
-      "children": ["rich-text#title-pgcursos", "rich-text#pgcursos", "flex-layout.row#links"],
+    "flex-layout.col#text-pgcursos-tab": {
+      "children": ["rich-text#title-pgcursos-tab", "rich-text#pgcursos-tab", "flex-layout.row#links-tab"],
       "props": {
-        "blockclass": "textColumn",
+        "blockclass": "textColumn-tab",
         "preventVerticalStretch": true
       }
     },
-  
-    "rich-text#teste1": {
+
+
+
+
+
+
+
+    "flex-layout.row#line1tab": {
+      "children": ["rich-text#linetab"],
       "props": {
-        "text": " ",
-        "blockClass": "teste1"
+        "blockclass": "ttetab"
       }
     },
   
-    "rich-text#teste2": {
+    "flex-layout.row#line2tab": {
+      "children": ["rich-text#linetab3"],
+      "props": {
+        "blockclass": "ttetab"
+      }
+    },
+  
+    "rich-text#linetab": {
       "props": {
         "text": " ",
-        "blockClass": "teste2"
+        "blockClass": "linetab"
+      }
+    },
+  
+    "rich-text#linetab2": {
+      "props": {
+        "text": " ",
+        "blockClass": "linetab2"
+      }
+    },
+  
+    "rich-text#linetab3": {
+      "props": {
+        "text": " ",
+        "blockClass": "linetab3"
+      }
+    },
+  
+  
+  
+    "flex-layout.row#line3tab": {
+      "children": ["rich-text#linetab4"],
+      "props": {
+        "blockclass": "ttetab"
+      }
+    },
+  
+    "flex-layout.row#line4tab": {
+      "children": ["rich-text#linetab6"],
+      "props": {
+        "blockclass": "ttetab"
+      }
+    },
+  
+    "rich-text#linetab4": {
+      "props": {
+        "text": " ",
+        "blockClass": "linetab4"
+      }
+    },
+  
+    "rich-text#linetab5": {
+      "props": {
+        "text": " ",
+        "blockClass": "linetab5"
+      }
+    },
+  
+    "rich-text#linetab6": {
+      "props": {
+        "text": " ",
+        "blockClass": "linetab6"
+      }
+    },
+
+  
+
+
+
+
+
+  
+    "rich-text#teste1-tab": {
+      "props": {
+        "text": " ",
+        "blockClass": "teste1-tab"
+      }
+    },
+  
+    "rich-text#teste2-tab": {
+      "props": {
+        "text": " ",
+        "blockClass": "teste2-tab"
       }
     },
     
-    "flex-layout.row#links":{
-      "children": ["link#cta", "link#cta2"]
+    "flex-layout.row#links-tab":{
+      "children": ["link#cta-tab", "link#cta2-tab"]
     },
   
-    "rich-text#title-pgcursos": {
+    "rich-text#title-pgcursos-tab": {
       "props": {
         "text": "### Titulo do curso Titulo do curso",
-        "blockClass": "title"
+        "blockClass": "title-tab"
       }
     },
   
-    "rich-text#pgcursos": {
+    "rich-text#pgcursos-tab": {
       "props": {
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
-        "blockClass": "pgcursos"
+        "blockClass": "pgcursos-tab"
       }
     },
   
-    "flex-layout.col#2":{
+    "flex-layout.col#2-tab":{
       "children": [
-        "rich-text#pg1",
-        "rich-text#pg2",
-        "image#pgcursos"
+        "rich-text#pg1-tab",
+        "rich-text#pg2-tab",
+        "image#pgcursos-tab"
       ]
     },
   
-    "rich-text#pg1": {
+    "rich-text#pg1-tab": {
       "props": {
         "text": "apresentado por",
-        "blockClass": "pres-pg1",
+        "blockClass": "pres-pg1-tab",
         "textAlignment": "CENTER",
         "textPosition": "LEFT"
       }
     },
   
-    "rich-text#pg2": {
+    "rich-text#pg2-tab": {
       "props": {
         "text": "nome nome nome",
-        "blockClass": "pres-pg2",
+        "blockClass": "pres-pg2-tab",
         "textAlignment": "CENTER",
         "textPosition": "LEFT"
       }
     },
   
-    "image#pgcursos": {
+    "image#pgcursos-tab": {
       "props": {
         "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
         "maxWidth": "100%",
         "maxHeight": "100%",
-        "width": 160,
-        "height": 160,
-        "blockClass": "pgprof1"
+        "width": 120,
+        "height": 120,
+        "blockClass": "pgprof1-tab"
       }
     },
   
-    "link#cta": {
+    "link#cta-tab": {
       "props": {
-        "blockClass":"pglink1",
+        "blockClass":"pglink1-tab",
        "displayMode": "button",
         "buttonProps": {
           "variant": "primary",
@@ -124,9 +209,9 @@
       }
     },
   
-    "link#cta2": {
+    "link#cta2-tab": {
      "props": {
-      "blockClass":"pglink2",
+      "blockClass":"pglink2-tab",
       "displayMode": "button",
        "buttonProps": {
          "variant": "primary",
@@ -137,7 +222,7 @@
      }
    },
   
-   "image#cursos-brands": {
+   "image#cursos-brands-tab": {
     "props": {
       "src": "https://supernossoio.vtexassets.com/arquivos/marcas-feira.png"
     }
@@ -145,93 +230,93 @@
   
   /*SEGUNDO BLOCO*/
   
-  "flex-layout.row#pgcursos3": {
-    "children": ["rich-text#teste5", "flex-layout.col#text-pgcursos3", "rich-text#teste6", "flex-layout.col#4"],
+  "flex-layout.row#pgcursos3-tab": {
+    "children": ["rich-text#teste5-tab", "flex-layout.col#text-pgcursos3-tab", "rich-text#teste6-tab", "flex-layout.col#4-tab", "rich-text#linetab2"],
     "props": {
-    "blockclass": "pgflex"
+    "blockclass": "pgflex-tab"
    }
   },
   
-  "flex-layout.col#text-pgcursos3": {
-    "children": ["rich-text#title-pgcursos3", "rich-text#pgcursos3", "flex-layout.row#links3"],
+  "flex-layout.col#text-pgcursos3-tab": {
+    "children": ["rich-text#title-pgcursos3-tab", "rich-text#pgcursos3-tab", "flex-layout.row#links3-tab"],
     "props": {
-      "blockclass": "textColumn",
+      "blockclass": "textColumn-tab",
       "preventVerticalStretch": true
     }
   },
   
-  "rich-text#teste5": {
+  "rich-text#teste5-tab": {
     "props": {
       "text": " ",
-      "blockClass": "teste1"
+      "blockClass": "teste1-tab"
     }
   },
   
-  "rich-text#teste6": {
+  "rich-text#teste6-tab": {
     "props": {
       "text": " ",
-      "blockClass": "teste2"
+      "blockClass": "teste2-tab"
     }
   },
   
-  "flex-layout.row#links3":{
-    "children": ["link#cta5", "link#cta6", "link#cta7"]
+  "flex-layout.row#links3-tab":{
+    "children": ["link#cta5-tab", "link#cta6-tab", "link#cta7-tab"]
   },
   
-  "rich-text#title-pgcursos3": {
+  "rich-text#title-pgcursos3-tab": {
     "props": {
       "text": "### Titulo do curso Titulo do curso",
-      "blockClass": "title"
+      "blockClass": "title-tab"
     }
   },
   
-  "rich-text#pgcursos3": {
+  "rich-text#pgcursos3-tab": {
     "props": {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
-      "blockClass": "pgcursos"
+      "blockClass": "pgcursos-tab-3"
     }
   },
   
-  "flex-layout.col#4":{
+  "flex-layout.col#4-tab":{
     "children": [
-      "rich-text#pg6",
-      "rich-text#pg7",
-      "image#pgcursos4"
+      "rich-text#pg6-tab",
+      "rich-text#pg7-tab",
+      "image#pgcursos4-tab"
     ]
   },
   
-  "rich-text#pg6": {
+  "rich-text#pg6-tab": {
     "props": {
       "text": "apresentado por",
-      "blockClass": "pres-pg1",
+      "blockClass": "pres-pg1-tab",
       "textAlignment": "CENTER",
       "textPosition": "LEFT"
     }
   },
   
-  "rich-text#pg7": {
+  "rich-text#pg7-tab": {
     "props": {
       "text": "nome nome nome",
-      "blockClass": "pres-pg2",
+      "blockClass": "pres-pg2-tab",
       "textAlignment": "CENTER",
       "textPosition": "LEFT"
     }
   },
   
-  "image#pgcursos4": {
+  "image#pgcursos4-tab": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
       "maxWidth": "100%",
       "maxHeight": "100%",
-      "width": 160,
-      "height": 160,
-      "blockClass": "pgprof1"
+      "width": 120,
+      "height": 120,
+      "blockClass": "pgprof1-tab"
     }
   },
   
-  "link#cta5": {
+  "link#cta5-tab": {
     "props": {
-      "blockClass":"pglink1",
+      "blockClass":"pglink3-tab",
      "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
@@ -242,9 +327,10 @@
     }
   },
   
-  "link#cta6": {
+  "link#cta6-tab": {
    "props": {
-    "blockClass":"pglink2",
+    "textAlignment":"CENTER",
+    "blockClass":"pglink4-tab",
     "displayMode": "button",
      "buttonProps": {
        "variant": "primary",
@@ -255,9 +341,9 @@
    }
   },
   
-  "link#cta7": {
+  "link#cta7-tab": {
     "props": {
-     "blockClass":"pglink3",
+     "blockClass":"pglink5-tab",
      "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
@@ -271,79 +357,79 @@
   
   /*TERCEIRO BLOCO*/
   
-  "flex-layout.row#pgcursos4": {
-    "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos4", "rich-text#teste2", "flex-layout.col#5"],
+  "flex-layout.row#pgcursos4-tab": {
+    "children": ["rich-text#teste1-tab", "flex-layout.col#text-pgcursos4-tab", "rich-text#teste2-tab", "flex-layout.col#5-tab", "rich-text#linetab2"],
     "props": {
-    "blockclass": "pgflex"
+    "blockclass": "pgflex-tab"
    }
   },
   
-  "flex-layout.col#text-pgcursos4": {
-    "children": ["rich-text#title-pgcursos4", "rich-text#pgcursos4", "flex-layout.row#links4"],
+  "flex-layout.col#text-pgcursos4-tab": {
+    "children": ["rich-text#title-pgcursos4-tab", "rich-text#pgcursos4-tab", "flex-layout.row#links4-tab"],
     "props": {
-      "blockclass": "textColumn",
+      "blockclass": "textColumn-tab",
       "preventVerticalStretch": true
     }
   },
   
-  "flex-layout.row#links4":{
-    "children": ["link#cta8", "link#cta9"]
+  "flex-layout.row#links4-tab":{
+    "children": ["link#cta8-tab", "link#cta9-tab"]
   },
   
-  "rich-text#title-pgcursos4": {
+  "rich-text#title-pgcursos4-tab": {
     "props": {
       "text": "### Titulo do curso Titulo do curso",
-      "blockClass": "title"
+      "blockClass": "title-tab"
     }
   },
   
-  "rich-text#pgcursos4": {
+  "rich-text#pgcursos4-tab": {
     "props": {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
-      "blockClass": "pgcursos"
+      "blockClass": "pgcursos-tab"
     }
   },
   
-  "flex-layout.col#5":{
+  "flex-layout.col#5-tab":{
     "children": [
-      "rich-text#pg8",
-      "rich-text#pg9",
-      "image#pgcursos5"
+      "rich-text#pg8-tab",
+      "rich-text#pg9-tab",
+      "image#pgcursos5-tab"
     ]
   },
   
-  "rich-text#pg8": {
+  "rich-text#pg8-tab": {
     "props": {
       "text": "apresentado por",
-      "blockClass": "pres-pg1",
+      "blockClass": "pres-pg1-tab",
       "textAlignment": "CENTER",
       "textPosition": "LEFT"
     }
   },
   
-  "rich-text#pg9": {
+  "rich-text#pg9-tab": {
     "props": {
       "text": "nome nome nome",
-      "blockClass": "pres-pg2",
+      "blockClass": "pres-pg2-tab",
       "textAlignment": "CENTER",
       "textPosition": "LEFT"
     }
   },
   
-  "image#pgcursos5": {
+  "image#pgcursos5-tab": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
       "maxWidth": "100%",
       "maxHeight": "100%",
-      "width": 160,
-      "height": 160,
-      "blockClass": "pgprof1"
+      "width": 120,
+      "height": 120,
+      "blockClass": "pgprof1-tab"
     }
   },
   
-  "link#cta8": {
+  "link#cta8-tab": {
     "props": {
-      "blockClass":"pglink1",
+      "blockClass":"pglink1-tab",
      "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
@@ -354,9 +440,9 @@
     }
   },
   
-  "link#cta9": {
+  "link#cta9-tab": {
    "props": {
-    "blockClass":"pglink2",
+    "blockClass":"pglink2-tab",
     "displayMode": "button",
      "buttonProps": {
        "variant": "primary",
@@ -370,130 +456,137 @@
   
    /*QUARTO BLOCO*/
   
-   "flex-layout.row#pgcursos2": {
-    "children": ["rich-text#teste1", "flex-layout.col#text-pgcursos2", "rich-text#teste3", "flex-layout.row#juntos"],
+   "flex-layout.row#pgcursos2-tab": {
+    "children": ["rich-text#teste4-tab", "flex-layout.col#text-pgcursos2-tab", "rich-text#teste3-tab", "flex-layout.row#juntos-tab", "rich-text#linetab5"],
     "props": {
-    "blockclass": "pgflex"
+    "blockclass": "pgflex-tab"
    }
   },
   
-  "flex-layout.col#text-pgcursos2": {
-    "children": ["rich-text#title-pgcursos2", "rich-text#pgcursos2", "flex-layout.row#links2"],
+  "flex-layout.col#text-pgcursos2-tab": {
+    "children": ["rich-text#title-pgcursos2-tab", "rich-text#pgcursos2-tab", "flex-layout.row#links2-tab"],
     "props": {
-      "blockclass": "textColumn2",
+      "blockclass": "textColumn2-tab",
       "preventVerticalStretch": true
     }
   },
   
-  "rich-text#teste3": {
+  "rich-text#teste3-tab": {
     "props": {
       "text": " ",
-      "blockClass": "teste3"
+      "blockClass": "teste3-tab"
+    }
+  },
+
+  "rich-text#teste4-tab": {
+    "props": {
+      "text": " ",
+      "blockClass": "teste4-tab"
     }
   },
   
-  "flex-layout.row#links2":{
-    "children": ["link#cta3", "link#cta4"]
+  "flex-layout.row#links2-tab":{
+    "children": ["link#cta3-tab", "link#cta4-tab"]
   },
   
-  "rich-text#title-pgcursos2": {
+  "rich-text#title-pgcursos2-tab": {
     "props": {
       "text": "### Titulo do curso Titulo do curso",
-      "blockClass": "title2"
+      "blockClass": "title2-tab"
     }
   },
   
-  "rich-text#pgcursos2": {
+  "rich-text#pgcursos2-tab": {
     "props": {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris elit neque, convallis id convallis nec, viverra non nisl. Sed blandit nulla ut ante posuere elementum. Nullam venenatis erat augue, et rhoncus lacus ultrices at. Praesent sed tempor leo. Etiam interdum, mauris id scelerisque laoreet, magna mauris iaculis lectus, non cursus nunc ante nec velit. Integer libero enim, euismod non feugiat sit amet, sagittis nec nunc. Integer ut tincidunt augue, non accumsan tortor. In hac habitasse platea dictumst. Nam eget diam ante. Aenean at metus ipsum. Vestibulum at rutrum urna. Vivamus vitae lacus ut mauris dignissim sodales ac a mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce non elementum metus. Aliquam erat volutpat.",
-      "blockClass": "pgcursos2"
+      "blockClass": "pgcursos2-tab"
     }
   },
   
-  "flex-layout.row#juntos":{
+  "flex-layout.row#juntos-tab":{
     "children": [
-      "flex-layout.col#topo"
+      "flex-layout.col#topo-tab"
     ]
   },
   
-  "flex-layout.col#topo":{
+  "flex-layout.col#topo-tab":{
     "children": [
-      "rich-text#pg3",
-      "flex-layout.row#centro",
-      "flex-layout.col#3"
+      "rich-text#pg3-tab",
+      "flex-layout.row#centro-tab",
+      "flex-layout.col#3-tab"
     ]
   },
   
-  "flex-layout.row#centro":{
+  "flex-layout.row#centro-tab":{
     "children": [
-      "rich-text#pg4",
-      "rich-text#pg5"
+      "rich-text#pg4-tab",
+      "rich-text#pg5-tab"
     ]
   },
   
   
-  "flex-layout.col#3":{
+  "flex-layout.col#3-tab":{
     "children": [
-      "flex-layout.row#imagedesk2"
+      "flex-layout.row#imagedesk2-tab"
     ]
   },
   
-  "flex-layout.row#imagedesk2": {
-    "children": ["image#pgcursos2", "image#pgcursos3"]
+  "flex-layout.row#imagedesk2-tab": {
+    "children": ["image#pgcursos2-tab", "image#pgcursos3-tab"]
    },
   
-   "rich-text#pg3": {
+   "rich-text#pg3-tab": {
     "props": {
       "text": "apresentado por",
-      "blockClass": "pres-pg3",
+      "blockClass": "pres-pg3-tab",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
   
-  "rich-text#pg4": {
+  "rich-text#pg4-tab": {
     "props": {
       "text": "nome nome nome",
-      "blockClass": "pres-pg4",
+      "blockClass": "pres-pg4-tab",
       "textAlignment": "CENTER",
       "textPosition": "LEFT"
     }
   },
   
-  "rich-text#pg5": {
+  "rich-text#pg5-tab": {
     "props": {
       "text": "nome nome nome",
-      "blockClass": "pres-pg5",
+      "blockClass": "pres-pg5-tab",
       "textAlignment": "CENTER",
       "textPosition": "LEFT"
     }
   },
   
-  "image#pgcursos2": {
+  "image#pgcursos2-tab": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
       "maxWidth": "100%",
       "maxHeight": "100%",
-      "width": 160,
-      "height": 160,
-      "blockClass": "pgprof2"
+      "width": 120,
+      "height": 120,
+      "blockClass": "pgprof2-tab"
     }
   },
   
-  "image#pgcursos3": {
+  "image#pgcursos3-tab": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
       "maxWidth": "100%",
       "maxHeight": "100%",
-      "width": 160,
-      "height": 160,
-      "blockClass": "pgprof3"
+      "width": 120,
+      "height": 120,
+      "blockClass": "pgprof3-tab"
     }
   },
   
-  "link#cta3": {
+  "link#cta3-tab": {
     "props": {
-      "blockClass":"pglink1",
+      "blockClass":"pglink1-tab",
      "displayMode": "button",
       "buttonProps": {
         "variant": "primary",
@@ -504,9 +597,9 @@
     }
   },
   
-  "link#cta4": {
+  "link#cta4-tab": {
    "props": {
-    "blockClass":"pglink2",
+    "blockClass":"pglink2-tab",
     "displayMode": "button",
      "buttonProps": {
        "variant": "primary",

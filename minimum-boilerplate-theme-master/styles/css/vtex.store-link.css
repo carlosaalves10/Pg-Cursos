@@ -1,16 +1,34 @@
 .buttonLink--pglink1{
     margin-bottom: 100px;
-    margin-left: -500px;
+    margin-left: -300px;
+    width: 100% !important;
 }
 
 .buttonLink--pglink2{
     margin-bottom: 100px;
-    margin-left: -480px;
+    margin-left: -290px;
+    width: 100% !important;
 }
 
 .buttonLink--pglink3{
     margin-bottom: 100px;
-    margin-left: -460px;
+    margin-left: -300px;
+    width: 100% !important;
+    font-size: 12px;
+}
+
+.buttonLink--pglink4{
+    margin-bottom: 100px;
+    margin-left: -290px;
+    width: 100% !important;
+    font-size: 12px;
+}
+
+.buttonLink--pglink5{
+    margin-bottom: 100px;
+    margin-left: -280px;
+    width: 100% !important;
+    font-size: 12px;
 }
 
 .link{
@@ -26,6 +44,47 @@
     text-transform: lowercase;
     border: #8A1E23;
 }
+
+
+
+
+
+
+
+
+
+/*
+.buttonLink--pglink1{
+    margin-bottom: 100px;
+    margin-left: -400px;
+}
+
+.buttonLink--pglink2{
+    margin-bottom: 100px;
+    margin-left: -390px;
+}
+
+.buttonLink--pglink3{
+    margin-bottom: 100px;
+    margin-left: -380px;
+}
+
+.link{
+    background-color: #8A1E23;
+    font-family: 'Museo', Arial, sans-serif;
+    text-transform: lowercase;
+    border: #8A1E23;
+}
+
+.link:visited{
+    background-color: #8A1E23;
+    font-family: 'Museo', Arial, sans-serif;
+    text-transform: lowercase;
+    border: #8A1E23;
+}
+*/
+
+/*MOBILE*/
 
 .buttonLink--pglink1-mob{
     margin-bottom: 4px;
@@ -99,3 +158,115 @@
     height: 15px;
     max-width: 90%;
 }
+
+
+/*TABLET*/
+
+.buttonLink--pglink1-tab{
+    margin-bottom: 100px;
+    margin-left: -150px;
+    font-size: 12px;
+    max-width: 90% !important;
+}
+
+.buttonLink--pglink2-tab{
+    margin-bottom: 100px;
+    margin-left: -140px;
+    font-size: 12px;
+    max-width: 90% !important;
+}
+
+.buttonLink--pglink3-tab{
+    margin-bottom: 100px;
+    margin-left: -140px;
+    font-size: 8px;
+    max-width: 100% !important;
+}
+
+.buttonLink--pglink4-tab{
+    margin-bottom: 100px;
+    margin-left: -130px;
+    font-size: 8px;
+    max-width: 100% !important;
+}
+
+.buttonLink--pglink5-tab{
+    margin-bottom: 100px;
+    margin-left: -120px;
+    font-size: 8px;
+    max-width: 100% !important;
+}
+
+.link-tab{
+    background-color: #8A1E23;
+    font-family: 'Museo', Arial, sans-serif;
+    text-transform: lowercase;
+    border: #8A1E23;
+}
+
+.link-tab:visited{
+    background-color: #8A1E23;
+    font-family: 'Museo', Arial, sans-serif;
+    text-transform: lowercase;
+    border: #8A1E23;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.buttonLink--pglink1-tab{
+    margin-bottom: 100px;
+    margin-left: -210px;
+    font-size: 12px;
+    max-width: 90% !important;
+}
+
+.buttonLink--pglink2-tab{
+    margin-bottom: 100px;
+    margin-left: -200px;
+    font-size: 12px;
+    max-width: 90% !important;
+}
+
+.buttonLink--pglink3-tab{
+    margin-bottom: 100px;
+    margin-left: -200px;
+    font-size: 8px;
+    max-width: 100% !important;
+}
+
+.buttonLink--pglink4-tab{
+    margin-bottom: 100px;
+    margin-left: -190px;
+    font-size: 8px;
+    max-width: 100% !important;
+}
+
+.buttonLink--pglink5-tab{
+    margin-bottom: 100px;
+    margin-left: -180px;
+    font-size: 8px;
+    max-width: 100% !important;
+}
+
+.link-tab{
+    background-color: #8A1E23;
+    font-family: 'Museo', Arial, sans-serif;
+    text-transform: lowercase;
+    border: #8A1E23;
+}
+
+.link-tab:visited{
+    background-color: #8A1E23;
+    font-family: 'Museo', Arial, sans-serif;
+    text-transform: lowercase;
+    border: #8A1E23;
+}
+*/
